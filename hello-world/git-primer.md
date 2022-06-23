@@ -1,8 +1,8 @@
 ---
-theme: seriph
+theme: bricks
 routerMode: hash
 ---
 
-# Pytest primer
+# Git primer
 
 ---
