@@ -41,8 +41,16 @@ h1 {
 a {
     text-decoration: none;
     color: #CCC;
-    background: #111;
-    padding: 0.5em 1em;
+    background: #57D;
+    padding: 1rem 2rem;
+}
+
+.shape-1 {
+    border-radius: 10% 20% 50% 10% / 20% 30% 40% 50%;
+}
+
+.shape-2 {
+    border-radius: 50% 25% / 40%;
 }
 
 .flex {
@@ -54,5 +62,9 @@ a {
 }
 
 .space-y-2 > * + * {
-    margin-top: 0.25rem;
+    margin-top: 1rem;
+}
+
+.text-center {
+    text-align: center;
 }
