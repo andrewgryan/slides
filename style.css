@@ -6,7 +6,7 @@ html {
 body {
     margin: 0;
     color: limegreen;
-    background: #222;
+    background: #446;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -39,4 +39,16 @@ a {
     color: #CCC;
     background: #111;
     padding: 0.5em 1em;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.space-y-2 > * + * {
+    margin-top: 0.25rem;
 }

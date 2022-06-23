@@ -7,6 +7,7 @@ npm run build
 # Build hello-world talk
 cd hello-world
 npx slidev build --out ../dist/hello-world --base /slides/hello-world/
+npx slidev build --out ../dist/pytest-primer --base /slides/pytest-primer/ pytest-primer.md
 cd -
 
 # Enter static HTML directory
