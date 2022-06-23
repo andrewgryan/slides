@@ -1,0 +1,23 @@
+{
+    "name": "slides",
+    "version": "1.0.0",
+    "description": "A better way to develop presentations",
+    "main": "index.js",
+    "scripts": {
+        "build": "vite build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/andrewgryan/slides.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/andrewgryan/slides/issues"
+    },
+    "homepage": "https://github.com/andrewgryan/slides#readme",
+    "devDependencies": {
+        "vite": "^2.9.12"
+    }
+}
