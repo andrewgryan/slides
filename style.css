@@ -5,17 +5,21 @@ html {
 
 body {
     margin: 0;
-    color: limegreen;
-    background: #446;
+    color: #F7C;
+    background: #78D;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url("./pawel-czerwinski-wrQlWik8tTw-unsplash.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
 h1 {
     --spacing: 0.1em;
+    font-size: 3rem;
     font-weight: 100;
     letter-spacing: var(--spacing);
     animation-name: slidein;
