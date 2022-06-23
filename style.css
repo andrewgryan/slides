@@ -41,16 +41,23 @@ h1 {
 a {
     text-decoration: none;
     color: #CCC;
-    background: #57D;
+    background: #17D;
     padding: 1rem 2rem;
 }
 
-.shape-1 {
-    border-radius: 10% 20% 50% 10% / 20% 30% 40% 50%;
+.grid-ish {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
 }
 
-.shape-2 {
-    border-radius: 50% 25% / 40%;
+.grid-ish > *:last-child {
+    grid-column: 1 / span 2;
+}
+
+
+.border {
+    border-radius: 0.25rem;
 }
 
 .flex {
@@ -61,10 +68,22 @@ a {
     flex-direction: column;
 }
 
+.flex-row {
+    flex-direction: row;
+}
+
 .space-y-2 > * + * {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
+}
+
+.space-x-2 > * + * {
+    margin-left: 0.5rem;
 }
 
 .text-center {
     text-align: center;
+}
+
+.bg-red-200 {
+    background: #C12;
 }
