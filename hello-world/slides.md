@@ -19,6 +19,8 @@ info: |
 # persist drawings in exports and build
 drawings:
   persist: false
+# GitHub pages is a static file server
+routerMode: hash
 ---
 
 # Welcome to Slidev

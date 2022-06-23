@@ -4,7 +4,9 @@
     "description": "A better way to develop presentations",
     "main": "index.js",
     "scripts": {
-        "build": "vite build"
+        "start": "vite",
+        "dev": "vite",
+        "build": "vite build --base /slides/"
     },
     "repository": {
         "type": "git",

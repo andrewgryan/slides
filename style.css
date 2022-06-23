@@ -5,10 +5,38 @@ html {
 
 body {
     margin: 0;
-    color: white;
-    background: #333;
+    color: limegreen;
+    background: #222;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+h1 {
+    --spacing: 0.1em;
+    font-weight: 100;
+    letter-spacing: var(--spacing);
+    animation-name: slidein;
+    animation-duration: 2s;
+}
+
+@keyframes slidein {
+    from {
+        opacity: 0;
+        letter-spacing: 2em;
+    }
+
+    to {
+        opacity: 1;
+        letter-spacing: var(--spacing);
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #CCC;
+    background: #111;
+    padding: 0.5em 1em;
 }
