@@ -40,7 +40,7 @@ layout: center
 # Install miniconda for Windows
 Step 1 of 7
 
-![Installer page 1](/Installer-page-1.PNG)
+![Installer page 1](/installer-page-1.png)
 
 ---
 layout: center
@@ -49,7 +49,7 @@ layout: center
 # Install miniconda for Windows
 Step 2 of 7
 
-![Installer page 2](/Installer-page-2.PNG)
+![Installer page 2](/installer-page-2.png)
 
 ---
 layout: center
@@ -58,7 +58,7 @@ layout: center
 # Install miniconda for Windows
 Step 3 of 7
 
-![Installer page 3](/Installer-page-3.PNG)
+![Installer page 3](/installer-page-3.png)
 
 ---
 layout: center
@@ -67,7 +67,7 @@ layout: center
 # Install miniconda for Windows
 Step 4 of 7
 
-![Installer page 4](/Installer-page-4.PNG)
+![Installer page 4](/installer-page-4.png)
 
 ---
 layout: center
@@ -76,7 +76,7 @@ layout: center
 # Install miniconda for Windows
 Step 5 of 7
 
-![Installer page 5](/Installer-page-5.PNG)
+![Installer page 5](/installer-page-5.png)
 
 ---
 layout: center
@@ -85,7 +85,7 @@ layout: center
 # Install miniconda for Windows
 Step 6 of 7
 
-![Installer page 6](/Installer-page-6.PNG)
+![Installer page 6](/installer-page-6.png)
 
 ---
 layout: center
@@ -94,7 +94,7 @@ layout: center
 # Install miniconda for Windows
 Step 7 of 7
 
-![Installer page 7](/Installer-page-7.PNG)
+![Installer page 7](/installer-page-7.png)
 
 ---
 layout: iframe-right
@@ -119,7 +119,7 @@ Step 1 of 5
 conda --version
 ```
 
-![Prompt](/prompt-1.PNG)
+![prompt](/prompt-1.png)
 
 ---
 layout: center
@@ -132,7 +132,7 @@ Step 2 of 5
 conda create -n pagasa -c conda-forge forest
 ```
 
-![Prompt](/prompt-2.PNG)
+![prompt](/prompt-2.png)
 
 ---
 layout: center
@@ -142,10 +142,11 @@ layout: center
 Step 3 of 5
 
 ```bash
+conda activate pagasa
 forest --version
 ```
 
-![Prompt](/prompt-3.PNG)
+![prompt](/prompt-3.png)
 
 ---
 layout: center
@@ -158,7 +159,7 @@ Step 4 of 5
 forest tutorial launch
 ```
 
-![Prompt](/prompt-4.PNG)
+![prompt](/prompt-4.png)
 
 ---
 layout: center
@@ -173,7 +174,7 @@ forest tutorial files .
 dir
 ```
 
-![Prompt](/prompt-5.PNG)
+![prompt](/prompt-5.png)
 
 ---
 layout: iframe-right
@@ -186,15 +187,34 @@ Walkthrough typical use cases
 
 - Run the following command to open the documentation
 
-```sh
+```bash
 forest tutorial launch
 ```
 
 - Run the following command to generate sample data
 
-```sh
+```bash
 forest tutorial files .
 ```
+
+---
+layout: iframe-right
+url: /screenshot-1.png
+---
+
+# FOREST Custom driver resources
+
+Build a driver that allows curated color schemes
+
+- Git clone from https://github.com/MetOffice/forest-custom-driver
+
+```bash
+git clone git@github.com:MetOffice/forest-custom-driver.git
+cd forest-custom-driver
+```
+
+- Works with NetCDF forecast gridded data which can be read by xarray
+- Use PYTHONPATH and name of file to identify driver
 
 ---
 layout: image-right
