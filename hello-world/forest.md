@@ -1,7 +1,7 @@
 ---
 layout: cover
 routerMode: hash
-background: ./images/cover.jpg
+background: '/cover.jpg'
 ---
 
 # FOREST WCSSP Southeast Asia
@@ -34,8 +34,71 @@ Reference to online documentation
 - Follow the instructions there to download and run the installer
 
 ---
+layout: center
+---
+
+# Install miniconda for Windows
+Step 1 of 7
+
+![Installer page 1](/Installer-page-1.PNG)
+
+---
+layout: center
+---
+
+# Install miniconda for Windows
+Step 2 of 7
+
+![Installer page 2](/Installer-page-2.PNG)
+
+---
+layout: center
+---
+
+# Install miniconda for Windows
+Step 3 of 7
+
+![Installer page 3](/Installer-page-3.PNG)
+
+---
+layout: center
+---
+
+# Install miniconda for Windows
+Step 4 of 7
+
+![Installer page 4](/Installer-page-4.PNG)
+
+---
+layout: center
+---
+
+# Install miniconda for Windows
+Step 5 of 7
+
+![Installer page 5](/Installer-page-5.PNG)
+
+---
+layout: center
+---
+
+# Install miniconda for Windows
+Step 6 of 7
+
+![Installer page 6](/Installer-page-6.PNG)
+
+---
+layout: center
+---
+
+# Install miniconda for Windows
+Step 7 of 7
+
+![Installer page 7](/Installer-page-7.PNG)
+
+---
 layout: iframe-right
-url: https://docs.conda.io/projects/conda/en/latest/user-guide/install/windows.html
+url: https://forest-informaticslab.readthedocs.io/en/latest/start.html#installation
 ---
 
 # Install FOREST
@@ -44,6 +107,73 @@ Inside a conda environment
 - Create a new environment
 - Activate environment
 - Verify FOREST installed
+
+---
+layout: center
+---
+
+# Install FOREST for Windows
+Step 1 of 5
+
+```bash
+conda --version
+```
+
+![Prompt](/prompt-1.PNG)
+
+---
+layout: center
+---
+
+# Install FOREST for Windows
+Step 2 of 5
+
+```bash
+conda create -n pagasa -c conda-forge forest
+```
+
+![Prompt](/prompt-2.PNG)
+
+---
+layout: center
+---
+
+# Install FOREST for Windows
+Step 3 of 5
+
+```bash
+forest --version
+```
+
+![Prompt](/prompt-3.PNG)
+
+---
+layout: center
+---
+
+# Install FOREST for Windows
+Step 4 of 5
+
+```bash
+forest tutorial launch
+```
+
+![Prompt](/prompt-4.PNG)
+
+---
+layout: center
+---
+
+# Install FOREST for Windows
+Step 5 of 5
+```bash
+mkdir pagasa
+cd pagasa
+forest tutorial files .
+dir
+```
+
+![Prompt](/prompt-5.PNG)
 
 ---
 layout: iframe-right
