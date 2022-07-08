@@ -198,8 +198,8 @@ forest tutorial files .
 ```
 
 ---
-layout: iframe-right
-url: /screenshot-1.png
+layout: image-right
+image: /screenshot-1.png
 ---
 
 # FOREST Custom driver resources
